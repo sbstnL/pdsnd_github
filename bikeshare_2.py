@@ -43,7 +43,7 @@ def get_filters():
     while True:
         days = ['all', 'monday', 'tuesday', 'wednesday',
                 'thursday', 'friday', 'saturday', 'sunday']
-        day = input("For which day of the week would ou like to see the data? Use Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday. If you do not want to select a day you can type all.\n").lower()
+        day = input("For which day of the week would you like to see the data? Use Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday. If you do not want to select a day you can type all.\n").lower()
         if day in days:
             break
         else:
