@@ -183,14 +183,14 @@ def user_stats(df):
     user_types = df['User Type'].value_counts()
 
     print("These are the user types: \n", user_types)
-    # Display counts of gender if city has gender information
+    # Display counts of gender if city has gender information. Washington data does not have gender information.
     if 'Gender' in df:
         gender = df['Gender'].value_counts()
         print("These are the genders: \n", gender)
     else:
         print("Gender: There is no gender information in this city")
 
-    # Display earliest, most recent, and most common year of birth
+    # Display earliest, most recent, and most common year of birth if city has birth information. Washington data does not have birth information. 
     if 'Birth_Year' in df:
         earliest_birth = int(df['Birth Year'].min())
         latest_birth = int(df['Birth Year'].max())
