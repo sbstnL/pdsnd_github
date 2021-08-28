@@ -5,16 +5,14 @@ August 28, 2021
 ### Project Title
 Udacity Bike Share Project
 ### Description
-Analysing bike share data as part of the Udacity Data Science nano degree. The program provides an interactive experience for finding out insights about the bike share data. 
+Analysing bike share data as part of the Udacity Data Science nano degree. The program provides an interactive experience for finding out insights about the bike share data.
 
 ### Files used
 chicago.csv - Dataset containing all bikeshare information for the city of Chicago provided by Udacity.
 
 new_york_city.csv - Dataset containing all bikeshare information for the city of New York provided by Udacity.
 
-washington.csv - Dataset containing all bikeshare information for the city of Washington provided by Udacity. Note: This does not include the 'Gender' or 'Birth Year' data.
-
-
+washington.csv - Dataset containing all bikeshare information for the city of Washington provided by Udacity. Note: This does not include the 'Gender' or 'Birth Year' data. The program handles this missing data by not computing statistics on gender or birth year for Washington. 
 
 ### Credits
 \f0\fs24 \cf0 The following links helped me write my code:\
