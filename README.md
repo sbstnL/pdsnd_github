@@ -5,7 +5,7 @@ August 28, 2021
 ### Project Title
 Udacity Bike Share Project
 ### Description
-Analysing bike share data as part of the Udacity Data Science nano degree
+Analysing bike share data as part of the Udacity Data Science nano degree. The program provides an interactive experience for finding out insights about the bike share data. 
 
 ### Files used
 chicago.csv - Dataset containing all bikeshare information for the city of Chicago provided by Udacity.
